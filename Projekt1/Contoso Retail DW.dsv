@@ -1,0 +1,469 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="6579314f-2a8b-48a7-a70c-095dcbd04779" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Contoso Retail DW</ID>
+  <Name>Contoso Retail DW</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="16" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="3468" scrolltop="-8031" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="85" x="18018" y="11456" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vDimDate" left="11571" top="1349" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="4397" height="4274" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c00002d110000b2100000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="olap_vDimDate" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vDimMachine" left="8813" top="-7898" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="3948" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c00006c0f000088130000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="olap_vDimMachine" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vDimOutage" left="17067" top="-842" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="5006" height="4274" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c00008e130000b2100000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="olap_vDimOutage" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vDimStore" left="15524" top="-5138" logicalid="9" controlid="9" masterid="0" hint1="0" hint2="0" width="3542" height="3052" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000d60d0000ec0b0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="olap_vDimStore" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vFactITSLA" left="4667" top="-1578" logicalid="10" controlid="10" masterid="0" hint1="0" hint2="0" width="3663" height="4274" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c00004f0e0000b2100000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="olap_vFactITSLA" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="8030" top="-291" logicalid="11" controlid="11" masterid="0" hint1="0" hint2="0" width="3841" height="5277" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[vFactITSLA-vDimDate]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="10" sourceattachpoint="24" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="11571" y="4586" />
+                    <point x="10019" y="4586" />
+                    <point x="10019" y="9" />
+                    <point x="8330" y="9" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="8030" top="-2911" logicalid="13" controlid="13" masterid="0" hint1="0" hint2="0" width="7794" height="2120" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[vFactITSLA-vDimStore]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="9" destid="10" sourceattachpoint="22" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="15524" y="-2512" />
+                    <point x="10714" y="-2512" />
+                    <point x="10714" y="-1091" />
+                    <point x="8330" y="-1091" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="8030" top="-841" logicalid="14" controlid="14" masterid="0" hint1="0" hint2="0" width="9337" height="1986" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[vFactITSLA-vDimOutage]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="8" destid="10" sourceattachpoint="22" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="17067" y="745" />
+                    <point x="12948" y="745" />
+                    <point x="12948" y="-541" />
+                    <point x="8330" y="-541" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="7848" top="-3397" logicalid="15" controlid="15" masterid="0" hint1="0" hint2="0" width="1689" height="2119" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[vFactITSLA-vDimMachine]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="7" destid="10" sourceattachpoint="1" destattachpoint="12" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="9137" y="-2898" />
+                    <point x="9137" y="-2238" />
+                    <point x="8148" y="-2238" />
+                    <point x="8148" y="-1578" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>3468</DiagramViewPortLeft>
+            <DiagramViewPortTop>-8031</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>85</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Contoso Retail DW</DataSourceID>
+  <Schema>
+    <xs:schema id="Contoso_x0020_Retail_x0020_DW" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Contoso_x0020_Retail_x0020_DW" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="449b9554-099f-4437-b67d-1c0cfaa97a02">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="olap_vDimDate" msprop:design-time-name="00b19520-12fd-43ac-b534-32ccf6c8b611" msprop:DbTableName="vDimDate" msprop:FriendlyName="vDimDate" msprop:DbSchemaName="olap" msprop:TableType="View">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Datekey" msprop:design-time-name="17d8322d-5389-4edd-89df-a63c6a6c0b97" msprop:DbColumnName="Datekey" msprop:FriendlyName="Datekey" type="xs:dateTime" />
+                  <xs:element name="FullDateLabel" msprop:design-time-name="949d9d42-c45c-4f87-9fa9-c81bd7fa557c" msprop:DbColumnName="FullDateLabel" msprop:FriendlyName="FullDateLabel">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="DateDescription" msprop:design-time-name="8615c09e-0460-454a-a37e-2c7fc8f94b88" msprop:DbColumnName="DateDescription" msprop:FriendlyName="DateDescription">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="CalendarYearLabel" msprop:design-time-name="739760c8-5cdc-49b9-bec5-6471188ef969" msprop:DbColumnName="CalendarYearLabel" msprop:FriendlyName="CalendarYearLabel">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="CalendarHalfYearLabel" msprop:design-time-name="0444bb8a-ed7a-409c-bb45-7dbf17c78b9a" msprop:DbColumnName="CalendarHalfYearLabel" msprop:FriendlyName="CalendarHalfYearLabel">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="CalendarQuarterLabel" msprop:design-time-name="18dbd487-0d94-4041-96db-d243a0c3c91c" msprop:DbColumnName="CalendarQuarterLabel" msprop:FriendlyName="CalendarQuarterLabel" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="CalendarMonthLabel" msprop:design-time-name="9fc246b5-132a-43ab-b5d4-a8f0823e4cba" msprop:DbColumnName="CalendarMonthLabel" msprop:FriendlyName="CalendarMonthLabel">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="IsWorkDay" msprop:design-time-name="f556c2a2-5e8c-436b-865e-a4e3c9411da6" msprop:DbColumnName="IsWorkDay" msprop:FriendlyName="IsWorkDay">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="olap_vDimMachine" msprop:design-time-name="1e1fa637-a314-475a-869b-5d6d0f79a60b" msprop:DbTableName="vDimMachine" msprop:FriendlyName="vDimMachine" msprop:DbSchemaName="olap" msprop:TableType="View">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="MachineKey" msprop:design-time-name="936db547-1960-4674-89a3-fabda8fc5264" msprop:DbColumnName="MachineKey" msprop:FriendlyName="MachineKey" type="xs:int" />
+                  <xs:element name="MachineLabel" msprop:design-time-name="122ad345-c7e6-457d-a311-f804603ce330" msprop:DbColumnName="MachineLabel" msprop:FriendlyName="MachineLabel" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="MachineType" msprop:design-time-name="2a0a0b34-c916-4368-b8c0-6a6eb71d4ec7" msprop:DbColumnName="MachineType" msprop:FriendlyName="MachineType">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="MachineName" msprop:design-time-name="cc4e7703-7f96-4372-83d8-73eacdb447a3" msprop:DbColumnName="MachineName" msprop:FriendlyName="MachineName">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="MachineDescription" msprop:design-time-name="cbcd31ec-6c40-431a-847f-d5b07056ae29" msprop:DbColumnName="MachineDescription" msprop:FriendlyName="MachineDescription">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="200" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="VendorName" msprop:design-time-name="5b1ba5e9-48f4-4ec6-a97f-dc486b5949f6" msprop:DbColumnName="VendorName" msprop:FriendlyName="VendorName">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="MachineOS" msprop:design-time-name="480b82f9-f1f7-4635-81b5-2a60bd4b6e65" msprop:DbColumnName="MachineOS" msprop:FriendlyName="MachineOS">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="MachineSource" msprop:design-time-name="df2ef298-a280-47b1-aba0-6d0af3645c21" msprop:DbColumnName="MachineSource" msprop:FriendlyName="MachineSource">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="MachineHardware" msprop:design-time-name="ad786db5-9345-480a-9633-60f4b6cdb8d8" msprop:DbColumnName="MachineHardware" msprop:FriendlyName="MachineHardware" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="MachineSoftware" msprop:design-time-name="9d39bb4f-9226-4f74-8de4-869b86ec43b2" msprop:DbColumnName="MachineSoftware" msprop:FriendlyName="MachineSoftware">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Status" msprop:design-time-name="24623013-f9e3-4f13-92ec-696049a07e76" msprop:DbColumnName="Status" msprop:FriendlyName="Status">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="olap_vDimOutage" msprop:design-time-name="f3e7274c-a2d5-418d-bce4-36d96a32bc35" msprop:DbTableName="vDimOutage" msprop:FriendlyName="vDimOutage" msprop:DbSchemaName="olap" msprop:TableType="View">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="OutageKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="dd74350a-b217-4095-87cb-34e5a11b0d79" msprop:DbColumnName="OutageKey" msprop:FriendlyName="OutageKey" type="xs:int" />
+                  <xs:element name="OutageLabel" msprop:design-time-name="b21e84b0-646a-40e0-9a04-2278cfb82abf" msprop:DbColumnName="OutageLabel" msprop:FriendlyName="OutageLabel">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="OutageName" msprop:design-time-name="1d9e0bcc-fb28-4129-b6a2-d2663d9fb22b" msprop:DbColumnName="OutageName" msprop:FriendlyName="OutageName">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="OutageDescription" msprop:design-time-name="bf6264e5-e39a-44c7-9de4-7eb3fff2b4cc" msprop:DbColumnName="OutageDescription" msprop:FriendlyName="OutageDescription">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="200" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="OutageType" msprop:design-time-name="1bd9a063-6912-4b7a-9388-0b8ecbe7c3f8" msprop:DbColumnName="OutageType" msprop:FriendlyName="OutageType">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="OutageTypeDescription" msprop:design-time-name="b218b301-f63b-42c3-bdea-8a38e812536d" msprop:DbColumnName="OutageTypeDescription" msprop:FriendlyName="OutageTypeDescription">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="200" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="OutageSubType" msprop:design-time-name="8ad639a8-3dad-41de-bf7e-15af10ed51db" msprop:DbColumnName="OutageSubType" msprop:FriendlyName="OutageSubType">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="OutageSubTypeDescription" msprop:design-time-name="39ba7ce2-517c-427e-9404-3432004f1a67" msprop:DbColumnName="OutageSubTypeDescription" msprop:FriendlyName="OutageSubTypeDescription">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="200" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="olap_vDimStore" msprop:design-time-name="c99537dc-7904-41b4-8903-0e2bdeb23378" msprop:DbTableName="vDimStore" msprop:FriendlyName="vDimStore" msprop:DbSchemaName="olap" msprop:TableType="View">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="StoreKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="6fd38373-72ae-45ce-81c1-86e56d6b5636" msprop:DbColumnName="StoreKey" msprop:FriendlyName="StoreKey" type="xs:int" />
+                  <xs:element name="StoreType" msprop:design-time-name="38d1e381-2fba-4f93-8bca-d7353e0669eb" msprop:DbColumnName="StoreType" msprop:FriendlyName="StoreType" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="15" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="StoreName" msprop:design-time-name="80390a0e-440d-4d24-adfb-d3a8bf488cbe" msprop:DbColumnName="StoreName" msprop:FriendlyName="StoreName">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="StoreDescription" msprop:design-time-name="fba9e3fd-788b-455d-be0b-f55ea5ebe0a4" msprop:DbColumnName="StoreDescription" msprop:FriendlyName="StoreDescription">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="300" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Status" msprop:design-time-name="6c239665-f81d-4db5-a0a7-bbb85c7e9780" msprop:DbColumnName="Status" msprop:FriendlyName="Status">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="olap_vFactITSLA" msprop:design-time-name="d904ebb2-fd68-4afb-b932-da21518bde4c" msprop:DbTableName="vFactITSLA" msprop:FriendlyName="vFactITSLA" msprop:DbSchemaName="olap" msprop:TableType="View">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ITSLAkey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="fe707e14-f61b-418a-8270-fd4a93f557dc" msprop:DbColumnName="ITSLAkey" msprop:FriendlyName="ITSLAkey" type="xs:int" />
+                  <xs:element name="DateKey" msprop:design-time-name="cdf4208d-fae7-4f12-87bc-5c8d55a4b71e" msprop:DbColumnName="DateKey" msprop:FriendlyName="DateKey" type="xs:dateTime" />
+                  <xs:element name="StoreKey" msprop:design-time-name="2d0f3071-d30f-4071-8d50-db6ae54fc196" msprop:DbColumnName="StoreKey" msprop:FriendlyName="StoreKey" type="xs:int" />
+                  <xs:element name="MachineKey" msprop:design-time-name="3bf2fea3-bfe3-45d6-b9e7-afc63c776924" msprop:DbColumnName="MachineKey" msprop:FriendlyName="MachineKey" type="xs:int" />
+                  <xs:element name="OutageKey" msprop:design-time-name="400b9d0e-1898-4a3f-9df3-1af776b8055d" msprop:DbColumnName="OutageKey" msprop:FriendlyName="OutageKey" type="xs:int" />
+                  <xs:element name="OutageStartTime" msprop:design-time-name="7d89a4e0-613b-49e9-ad16-1a738552d794" msprop:DbColumnName="OutageStartTime" msprop:FriendlyName="OutageStartTime" type="xs:dateTime" />
+                  <xs:element name="OutageEndTime" msprop:design-time-name="a908a921-ef02-4f0c-9fdd-be98136f30a6" msprop:DbColumnName="OutageEndTime" msprop:FriendlyName="OutageEndTime" type="xs:dateTime" />
+                  <xs:element name="DownTime" msprop:design-time-name="a3669ddb-826e-454a-a8ad-817018b1caa2" msprop:DbColumnName="DownTime" msprop:FriendlyName="DownTime" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//olap_vDimDate" />
+          <xs:field xpath="Datekey" />
+        </xs:unique>
+        <xs:unique name="olap_vDimMachine_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//olap_vDimMachine" />
+          <xs:field xpath="MachineKey" />
+        </xs:unique>
+        <xs:unique name="olap_vDimOutage_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//olap_vDimOutage" />
+          <xs:field xpath="OutageKey" />
+        </xs:unique>
+        <xs:unique name="olap_vDimStore_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//olap_vDimStore" />
+          <xs:field xpath="StoreKey" />
+        </xs:unique>
+        <xs:unique name="olap_vFactITSLA_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//olap_vFactITSLA" />
+          <xs:field xpath="ITSLAkey" />
+        </xs:unique>
+      </xs:element>
+      <xs:annotation>
+        <xs:appinfo>
+          <msdata:Relationship name="vFactITSLA-vDimDate" msdata:parent="olap_vDimDate" msdata:child="olap_vFactITSLA" msdata:parentkey="Datekey" msdata:childkey="DateKey" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="vFactITSLA-vDimStore" msdata:parent="olap_vDimStore" msdata:child="olap_vFactITSLA" msdata:parentkey="StoreKey" msdata:childkey="StoreKey" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="vFactITSLA-vDimOutage" msdata:parent="olap_vDimOutage" msdata:child="olap_vFactITSLA" msdata:parentkey="OutageKey" msdata:childkey="OutageKey" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="vFactITSLA-vDimMachine" msdata:parent="olap_vDimMachine" msdata:child="olap_vFactITSLA" msdata:parentkey="MachineKey" msdata:childkey="MachineKey" msprop:IsLogical="True" msprop:Description="" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:schema>
+    <Contoso_x0020_Retail_x0020_DW xmlns="" />
+  </Schema>
+</DataSourceView>

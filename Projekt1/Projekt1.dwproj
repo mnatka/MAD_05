@@ -6,10 +6,55 @@
     <Name>Projekt1.database</Name>
     <FullPath>Projekt1.database</FullPath>
   </Database>
+  <Dimensions>
+    <ProjectItem>
+      <Name>DimMachine.dim</Name>
+      <FullPath>DimMachine.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DimDate.dim</Name>
+      <FullPath>DimDate.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DimOutage.dim</Name>
+      <FullPath>DimOutage.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DimStore.dim</Name>
+      <FullPath>DimStore.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
+  <DataSources>
+    <ProjectItem>
+      <Name>Contoso Retail DW.ds</Name>
+      <FullPath>Contoso Retail DW.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>Contoso Retail DW.dsv</Name>
+      <FullPath>Contoso Retail DW.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
-      <Options />
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>Contoso Retail DW</Id>
+            <Name>Contoso Retail DW</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=DESKTOP-6H80BGA;Integrated Security=SSPI;Initial Catalog=ContosoRetailDW</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>Contoso Retail DW</Id>
+            <Name>Contoso Retail DW</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
     </Configuration>
   </Configurations>
 </Project>
