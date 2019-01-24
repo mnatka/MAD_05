@@ -6,6 +6,18 @@
     <Name>Projekt1.database</Name>
     <FullPath>Projekt1.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>MAD_Cude.cube</Name>
+      <FullPath>MAD_Cude.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>MAD_Cude.partitions</Name>
+          <FullPath>MAD_Cude.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
   <Dimensions>
     <ProjectItem>
       <Name>DimMachine.dim</Name>
@@ -23,11 +35,43 @@
       <Name>DimStore.dim</Name>
       <FullPath>DimStore.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>DimGeography.dim</Name>
+      <FullPath>DimGeography.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DimEntity.dim</Name>
+      <FullPath>DimEntity.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DDimFactITMachine.dim</Name>
+      <FullPath>DDimFactITMachine.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DimProduct.dim</Name>
+      <FullPath>DimProduct.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DimCurrency.dim</Name>
+      <FullPath>DimCurrency.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DimChannel.dim</Name>
+      <FullPath>DimChannel.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DimPromotion.dim</Name>
+      <FullPath>DimPromotion.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DimCustomer.dim</Name>
+      <FullPath>DimCustomer.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
-      <Name>Contoso Retail DW.ds</Name>
-      <FullPath>Contoso Retail DW.ds</FullPath>
+      <Name>Contoso Retail DS.ds</Name>
+      <FullPath>Contoso Retail DS.ds</FullPath>
     </ProjectItem>
   </DataSources>
   <DataSourceViews>
